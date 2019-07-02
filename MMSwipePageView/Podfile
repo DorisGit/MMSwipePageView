@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '8.0'
+
+target 'MMSwipePageView' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  pod 'Masonry',                          '1.1.0'
+
+  # Pods for MMSwipePageView
+
+  target 'MMSwipePageViewTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'MMSwipePageViewUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

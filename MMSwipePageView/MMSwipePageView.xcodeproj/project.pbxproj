@@ -1,0 +1,799 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		030499CBDA5C30E95788B6F6 /* Pods_MMSwipePageViewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FFEBFA87C41B886FEECAC69 /* Pods_MMSwipePageViewTests.framework */; };
+		040CD06422C9E2A200889941 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 040CD06322C9E2A200889941 /* AppDelegate.m */; };
+		040CD06C22C9E2A300889941 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040CD06B22C9E2A300889941 /* Assets.xcassets */; };
+		040CD07222C9E2A300889941 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 040CD07122C9E2A300889941 /* main.m */; };
+		040CD07C22C9E2A400889941 /* MMSwipePageViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 040CD07B22C9E2A400889941 /* MMSwipePageViewTests.m */; };
+		040CD08722C9E2A400889941 /* MMSwipePageViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 040CD08622C9E2A400889941 /* MMSwipePageViewUITests.m */; };
+		040CD09E22C9E3A700889941 /* MMSwipeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 040CD09D22C9E3A700889941 /* MMSwipeManager.m */; };
+		040CD0A222C9E3D400889941 /* MMPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040CD0A122C9E3D400889941 /* MMPageViewController.m */; };
+		040CD0A522C9E3E100889941 /* MMBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040CD0A422C9E3E100889941 /* MMBaseViewController.m */; };
+		040CD0AB22C9E4A100889941 /* MMMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040CD0A922C9E4A100889941 /* MMMainViewController.m */; };
+		040CD0AE22C9E4C500889941 /* MMTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 040CD0AD22C9E4C500889941 /* MMTableViewCell.m */; };
+		040CD0B122CAF5DF00889941 /* MMHeaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040CD0B022CAF5DF00889941 /* MMHeaderViewController.m */; };
+		040CD0B522CB02D000889941 /* MMPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 040CD0B422CB02D000889941 /* MMPageView.m */; };
+		040CD0B822CB083A00889941 /* MMTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 040CD0B722CB083A00889941 /* MMTableView.m */; };
+		040CD0BB22CB088C00889941 /* MMCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 040CD0BA22CB088C00889941 /* MMCollectionView.m */; };
+		040CD0BE22CB0B4A00889941 /* MMSwipeConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = 040CD0BD22CB0B4A00889941 /* MMSwipeConfigure.m */; };
+		040CD0C122CB0E3200889941 /* MMPageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 040CD0C022CB0E3200889941 /* MMPageViewCell.m */; };
+		0848B1FD26E98394E6F6F49C /* Pods_MMSwipePageViewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DDF25EC825A123875CBD6DC /* Pods_MMSwipePageViewUITests.framework */; };
+		C9AA3D80D4018CB74B9811F5 /* Pods_MMSwipePageView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AFD62894FB80131DEE62497 /* Pods_MMSwipePageView.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		040CD07822C9E2A400889941 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 040CD05722C9E2A200889941 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 040CD05E22C9E2A200889941;
+			remoteInfo = MMSwipePageView;
+		};
+		040CD08322C9E2A400889941 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 040CD05722C9E2A200889941 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 040CD05E22C9E2A200889941;
+			remoteInfo = MMSwipePageView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		040CD05F22C9E2A200889941 /* MMSwipePageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMSwipePageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		040CD06222C9E2A200889941 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		040CD06322C9E2A200889941 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		040CD06B22C9E2A300889941 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		040CD07022C9E2A300889941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040CD07122C9E2A300889941 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		040CD07722C9E2A400889941 /* MMSwipePageViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MMSwipePageViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		040CD07B22C9E2A400889941 /* MMSwipePageViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMSwipePageViewTests.m; sourceTree = "<group>"; };
+		040CD07D22C9E2A400889941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040CD08222C9E2A400889941 /* MMSwipePageViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MMSwipePageViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		040CD08622C9E2A400889941 /* MMSwipePageViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMSwipePageViewUITests.m; sourceTree = "<group>"; };
+		040CD08822C9E2A400889941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040CD09522C9E30700889941 /* MMMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMMacros.h; sourceTree = "<group>"; };
+		040CD09722C9E33100889941 /* Mikasa.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mikasa.pch; sourceTree = "<group>"; };
+		040CD09C22C9E3A700889941 /* MMSwipeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMSwipeManager.h; sourceTree = "<group>"; };
+		040CD09D22C9E3A700889941 /* MMSwipeManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMSwipeManager.m; sourceTree = "<group>"; };
+		040CD0A022C9E3D400889941 /* MMPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMPageViewController.h; sourceTree = "<group>"; };
+		040CD0A122C9E3D400889941 /* MMPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMPageViewController.m; sourceTree = "<group>"; };
+		040CD0A322C9E3E100889941 /* MMBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMBaseViewController.h; sourceTree = "<group>"; };
+		040CD0A422C9E3E100889941 /* MMBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMBaseViewController.m; sourceTree = "<group>"; };
+		040CD0A922C9E4A100889941 /* MMMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMMainViewController.m; sourceTree = "<group>"; };
+		040CD0AA22C9E4A100889941 /* MMMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMMainViewController.h; sourceTree = "<group>"; };
+		040CD0AC22C9E4C500889941 /* MMTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMTableViewCell.h; sourceTree = "<group>"; };
+		040CD0AD22C9E4C500889941 /* MMTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMTableViewCell.m; sourceTree = "<group>"; };
+		040CD0AF22CAF5DF00889941 /* MMHeaderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMHeaderViewController.h; sourceTree = "<group>"; };
+		040CD0B022CAF5DF00889941 /* MMHeaderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMHeaderViewController.m; sourceTree = "<group>"; };
+		040CD0B322CB02D000889941 /* MMPageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMPageView.h; sourceTree = "<group>"; };
+		040CD0B422CB02D000889941 /* MMPageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMPageView.m; sourceTree = "<group>"; };
+		040CD0B622CB083A00889941 /* MMTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMTableView.h; sourceTree = "<group>"; };
+		040CD0B722CB083A00889941 /* MMTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMTableView.m; sourceTree = "<group>"; };
+		040CD0B922CB088C00889941 /* MMCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMCollectionView.h; sourceTree = "<group>"; };
+		040CD0BA22CB088C00889941 /* MMCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMCollectionView.m; sourceTree = "<group>"; };
+		040CD0BC22CB0B4A00889941 /* MMSwipeConfigure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMSwipeConfigure.h; sourceTree = "<group>"; };
+		040CD0BD22CB0B4A00889941 /* MMSwipeConfigure.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMSwipeConfigure.m; sourceTree = "<group>"; };
+		040CD0BF22CB0E3200889941 /* MMPageViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMPageViewCell.h; sourceTree = "<group>"; };
+		040CD0C022CB0E3200889941 /* MMPageViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMPageViewCell.m; sourceTree = "<group>"; };
+		1800DBEF6228D6BDC0CE670C /* Pods-MMSwipePageViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMSwipePageViewTests.release.xcconfig"; path = "Target Support Files/Pods-MMSwipePageViewTests/Pods-MMSwipePageViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		1DDF25EC825A123875CBD6DC /* Pods_MMSwipePageViewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MMSwipePageViewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		311154E266831CE845C14863 /* Pods-MMSwipePageViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMSwipePageViewUITests.debug.xcconfig"; path = "Target Support Files/Pods-MMSwipePageViewUITests/Pods-MMSwipePageViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4AFD62894FB80131DEE62497 /* Pods_MMSwipePageView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MMSwipePageView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FFEBFA87C41B886FEECAC69 /* Pods_MMSwipePageViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MMSwipePageViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B68BE9813ACA94360DD412A /* Pods-MMSwipePageView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMSwipePageView.release.xcconfig"; path = "Target Support Files/Pods-MMSwipePageView/Pods-MMSwipePageView.release.xcconfig"; sourceTree = "<group>"; };
+		714007479BD1C588A3C9DFBD /* Pods-MMSwipePageView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMSwipePageView.debug.xcconfig"; path = "Target Support Files/Pods-MMSwipePageView/Pods-MMSwipePageView.debug.xcconfig"; sourceTree = "<group>"; };
+		F66197C7F140DEB5ABFD5274 /* Pods-MMSwipePageViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMSwipePageViewTests.debug.xcconfig"; path = "Target Support Files/Pods-MMSwipePageViewTests/Pods-MMSwipePageViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F719E244EB8C4A39888CE05A /* Pods-MMSwipePageViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMSwipePageViewUITests.release.xcconfig"; path = "Target Support Files/Pods-MMSwipePageViewUITests/Pods-MMSwipePageViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		040CD05C22C9E2A200889941 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9AA3D80D4018CB74B9811F5 /* Pods_MMSwipePageView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040CD07422C9E2A400889941 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030499CBDA5C30E95788B6F6 /* Pods_MMSwipePageViewTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040CD07F22C9E2A400889941 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0848B1FD26E98394E6F6F49C /* Pods_MMSwipePageViewUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		040CD05622C9E2A200889941 = {
+			isa = PBXGroup;
+			children = (
+				040CD06122C9E2A200889941 /* MMSwipePageView */,
+				040CD07A22C9E2A400889941 /* MMSwipePageViewTests */,
+				040CD08522C9E2A400889941 /* MMSwipePageViewUITests */,
+				040CD06022C9E2A200889941 /* Products */,
+				B74D8E06DD07CAE090285358 /* Pods */,
+				2D523B09683CD8486E37EE7B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		040CD06022C9E2A200889941 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				040CD05F22C9E2A200889941 /* MMSwipePageView.app */,
+				040CD07722C9E2A400889941 /* MMSwipePageViewTests.xctest */,
+				040CD08222C9E2A400889941 /* MMSwipePageViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		040CD06122C9E2A200889941 /* MMSwipePageView */ = {
+			isa = PBXGroup;
+			children = (
+				040CD09F22C9E3C000889941 /* App */,
+				040CD09822C9E34F00889941 /* MMSwipePageView */,
+				040CD09622C9E32500889941 /* Other */,
+				040CD09422C9E30700889941 /* Macros */,
+				040CD06B22C9E2A300889941 /* Assets.xcassets */,
+				040CD07022C9E2A300889941 /* Info.plist */,
+				040CD07122C9E2A300889941 /* main.m */,
+			);
+			path = MMSwipePageView;
+			sourceTree = "<group>";
+		};
+		040CD07A22C9E2A400889941 /* MMSwipePageViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				040CD07B22C9E2A400889941 /* MMSwipePageViewTests.m */,
+				040CD07D22C9E2A400889941 /* Info.plist */,
+			);
+			path = MMSwipePageViewTests;
+			sourceTree = "<group>";
+		};
+		040CD08522C9E2A400889941 /* MMSwipePageViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				040CD08622C9E2A400889941 /* MMSwipePageViewUITests.m */,
+				040CD08822C9E2A400889941 /* Info.plist */,
+			);
+			path = MMSwipePageViewUITests;
+			sourceTree = "<group>";
+		};
+		040CD09422C9E30700889941 /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				040CD09522C9E30700889941 /* MMMacros.h */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		040CD09622C9E32500889941 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				040CD09722C9E33100889941 /* Mikasa.pch */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		040CD09822C9E34F00889941 /* MMSwipePageView */ = {
+			isa = PBXGroup;
+			children = (
+				040CD0B222CB02AE00889941 /* View */,
+				040CD09C22C9E3A700889941 /* MMSwipeManager.h */,
+				040CD09D22C9E3A700889941 /* MMSwipeManager.m */,
+				040CD0A022C9E3D400889941 /* MMPageViewController.h */,
+				040CD0A122C9E3D400889941 /* MMPageViewController.m */,
+				040CD0AF22CAF5DF00889941 /* MMHeaderViewController.h */,
+				040CD0B022CAF5DF00889941 /* MMHeaderViewController.m */,
+				040CD0BC22CB0B4A00889941 /* MMSwipeConfigure.h */,
+				040CD0BD22CB0B4A00889941 /* MMSwipeConfigure.m */,
+			);
+			path = MMSwipePageView;
+			sourceTree = "<group>";
+		};
+		040CD09F22C9E3C000889941 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				040CD06222C9E2A200889941 /* AppDelegate.h */,
+				040CD06322C9E2A200889941 /* AppDelegate.m */,
+				040CD0A322C9E3E100889941 /* MMBaseViewController.h */,
+				040CD0A422C9E3E100889941 /* MMBaseViewController.m */,
+				040CD0AA22C9E4A100889941 /* MMMainViewController.h */,
+				040CD0A922C9E4A100889941 /* MMMainViewController.m */,
+				040CD0AC22C9E4C500889941 /* MMTableViewCell.h */,
+				040CD0AD22C9E4C500889941 /* MMTableViewCell.m */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		040CD0B222CB02AE00889941 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				040CD0B322CB02D000889941 /* MMPageView.h */,
+				040CD0B422CB02D000889941 /* MMPageView.m */,
+				040CD0B622CB083A00889941 /* MMTableView.h */,
+				040CD0B722CB083A00889941 /* MMTableView.m */,
+				040CD0B922CB088C00889941 /* MMCollectionView.h */,
+				040CD0BA22CB088C00889941 /* MMCollectionView.m */,
+				040CD0BF22CB0E3200889941 /* MMPageViewCell.h */,
+				040CD0C022CB0E3200889941 /* MMPageViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2D523B09683CD8486E37EE7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4AFD62894FB80131DEE62497 /* Pods_MMSwipePageView.framework */,
+				4FFEBFA87C41B886FEECAC69 /* Pods_MMSwipePageViewTests.framework */,
+				1DDF25EC825A123875CBD6DC /* Pods_MMSwipePageViewUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B74D8E06DD07CAE090285358 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				714007479BD1C588A3C9DFBD /* Pods-MMSwipePageView.debug.xcconfig */,
+				5B68BE9813ACA94360DD412A /* Pods-MMSwipePageView.release.xcconfig */,
+				F66197C7F140DEB5ABFD5274 /* Pods-MMSwipePageViewTests.debug.xcconfig */,
+				1800DBEF6228D6BDC0CE670C /* Pods-MMSwipePageViewTests.release.xcconfig */,
+				311154E266831CE845C14863 /* Pods-MMSwipePageViewUITests.debug.xcconfig */,
+				F719E244EB8C4A39888CE05A /* Pods-MMSwipePageViewUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		040CD05E22C9E2A200889941 /* MMSwipePageView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040CD08B22C9E2A400889941 /* Build configuration list for PBXNativeTarget "MMSwipePageView" */;
+			buildPhases = (
+				A8F3E1CC2DFA208DBA435D6C /* [CP] Check Pods Manifest.lock */,
+				040CD05B22C9E2A200889941 /* Sources */,
+				040CD05C22C9E2A200889941 /* Frameworks */,
+				040CD05D22C9E2A200889941 /* Resources */,
+				62C62274F9E946553FDC1489 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MMSwipePageView;
+			productName = MMSwipePageView;
+			productReference = 040CD05F22C9E2A200889941 /* MMSwipePageView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		040CD07622C9E2A400889941 /* MMSwipePageViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040CD08E22C9E2A400889941 /* Build configuration list for PBXNativeTarget "MMSwipePageViewTests" */;
+			buildPhases = (
+				678AC7BD37355820543D2C9C /* [CP] Check Pods Manifest.lock */,
+				040CD07322C9E2A400889941 /* Sources */,
+				040CD07422C9E2A400889941 /* Frameworks */,
+				040CD07522C9E2A400889941 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				040CD07922C9E2A400889941 /* PBXTargetDependency */,
+			);
+			name = MMSwipePageViewTests;
+			productName = MMSwipePageViewTests;
+			productReference = 040CD07722C9E2A400889941 /* MMSwipePageViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		040CD08122C9E2A400889941 /* MMSwipePageViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040CD09122C9E2A400889941 /* Build configuration list for PBXNativeTarget "MMSwipePageViewUITests" */;
+			buildPhases = (
+				8C1D73FFE1C995D816A3FAF9 /* [CP] Check Pods Manifest.lock */,
+				040CD07E22C9E2A400889941 /* Sources */,
+				040CD07F22C9E2A400889941 /* Frameworks */,
+				040CD08022C9E2A400889941 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				040CD08422C9E2A400889941 /* PBXTargetDependency */,
+			);
+			name = MMSwipePageViewUITests;
+			productName = MMSwipePageViewUITests;
+			productReference = 040CD08222C9E2A400889941 /* MMSwipePageViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		040CD05722C9E2A200889941 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Mikasa;
+				TargetAttributes = {
+					040CD05E22C9E2A200889941 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					040CD07622C9E2A400889941 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 040CD05E22C9E2A200889941;
+					};
+					040CD08122C9E2A400889941 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 040CD05E22C9E2A200889941;
+					};
+				};
+			};
+			buildConfigurationList = 040CD05A22C9E2A200889941 /* Build configuration list for PBXProject "MMSwipePageView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 040CD05622C9E2A200889941;
+			productRefGroup = 040CD06022C9E2A200889941 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				040CD05E22C9E2A200889941 /* MMSwipePageView */,
+				040CD07622C9E2A400889941 /* MMSwipePageViewTests */,
+				040CD08122C9E2A400889941 /* MMSwipePageViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		040CD05D22C9E2A200889941 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040CD06C22C9E2A300889941 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040CD07522C9E2A400889941 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040CD08022C9E2A400889941 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		62C62274F9E946553FDC1489 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MMSwipePageView/Pods-MMSwipePageView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MMSwipePageView/Pods-MMSwipePageView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MMSwipePageView/Pods-MMSwipePageView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		678AC7BD37355820543D2C9C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MMSwipePageViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C1D73FFE1C995D816A3FAF9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MMSwipePageViewUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8F3E1CC2DFA208DBA435D6C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MMSwipePageView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		040CD05B22C9E2A200889941 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040CD07222C9E2A300889941 /* main.m in Sources */,
+				040CD0A522C9E3E100889941 /* MMBaseViewController.m in Sources */,
+				040CD09E22C9E3A700889941 /* MMSwipeManager.m in Sources */,
+				040CD0BB22CB088C00889941 /* MMCollectionView.m in Sources */,
+				040CD0B822CB083A00889941 /* MMTableView.m in Sources */,
+				040CD0BE22CB0B4A00889941 /* MMSwipeConfigure.m in Sources */,
+				040CD0AB22C9E4A100889941 /* MMMainViewController.m in Sources */,
+				040CD06422C9E2A200889941 /* AppDelegate.m in Sources */,
+				040CD0B122CAF5DF00889941 /* MMHeaderViewController.m in Sources */,
+				040CD0A222C9E3D400889941 /* MMPageViewController.m in Sources */,
+				040CD0C122CB0E3200889941 /* MMPageViewCell.m in Sources */,
+				040CD0AE22C9E4C500889941 /* MMTableViewCell.m in Sources */,
+				040CD0B522CB02D000889941 /* MMPageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040CD07322C9E2A400889941 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040CD07C22C9E2A400889941 /* MMSwipePageViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040CD07E22C9E2A400889941 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040CD08722C9E2A400889941 /* MMSwipePageViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		040CD07922C9E2A400889941 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 040CD05E22C9E2A200889941 /* MMSwipePageView */;
+			targetProxy = 040CD07822C9E2A400889941 /* PBXContainerItemProxy */;
+		};
+		040CD08422C9E2A400889941 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 040CD05E22C9E2A200889941 /* MMSwipePageView */;
+			targetProxy = 040CD08322C9E2A400889941 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		040CD08922C9E2A400889941 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		040CD08A22C9E2A400889941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		040CD08C22C9E2A400889941 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 714007479BD1C588A3C9DFBD /* Pods-MMSwipePageView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V9C4KDUT3X;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MMSwipePageView/Other/Mikasa.pch";
+				INFOPLIST_FILE = MMSwipePageView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikasa.MMSwipePageView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		040CD08D22C9E2A400889941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B68BE9813ACA94360DD412A /* Pods-MMSwipePageView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V9C4KDUT3X;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MMSwipePageView/Other/Mikasa.pch";
+				INFOPLIST_FILE = MMSwipePageView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikasa.MMSwipePageView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		040CD08F22C9E2A400889941 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F66197C7F140DEB5ABFD5274 /* Pods-MMSwipePageViewTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V9C4KDUT3X;
+				INFOPLIST_FILE = MMSwipePageViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikasa.MMSwipePageViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MMSwipePageView.app/MMSwipePageView";
+			};
+			name = Debug;
+		};
+		040CD09022C9E2A400889941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1800DBEF6228D6BDC0CE670C /* Pods-MMSwipePageViewTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V9C4KDUT3X;
+				INFOPLIST_FILE = MMSwipePageViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikasa.MMSwipePageViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MMSwipePageView.app/MMSwipePageView";
+			};
+			name = Release;
+		};
+		040CD09222C9E2A400889941 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 311154E266831CE845C14863 /* Pods-MMSwipePageViewUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V9C4KDUT3X;
+				INFOPLIST_FILE = MMSwipePageViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikasa.MMSwipePageViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MMSwipePageView;
+			};
+			name = Debug;
+		};
+		040CD09322C9E2A400889941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F719E244EB8C4A39888CE05A /* Pods-MMSwipePageViewUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V9C4KDUT3X;
+				INFOPLIST_FILE = MMSwipePageViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikasa.MMSwipePageViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MMSwipePageView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		040CD05A22C9E2A200889941 /* Build configuration list for PBXProject "MMSwipePageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040CD08922C9E2A400889941 /* Debug */,
+				040CD08A22C9E2A400889941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		040CD08B22C9E2A400889941 /* Build configuration list for PBXNativeTarget "MMSwipePageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040CD08C22C9E2A400889941 /* Debug */,
+				040CD08D22C9E2A400889941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		040CD08E22C9E2A400889941 /* Build configuration list for PBXNativeTarget "MMSwipePageViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040CD08F22C9E2A400889941 /* Debug */,
+				040CD09022C9E2A400889941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		040CD09122C9E2A400889941 /* Build configuration list for PBXNativeTarget "MMSwipePageViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040CD09222C9E2A400889941 /* Debug */,
+				040CD09322C9E2A400889941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 040CD05722C9E2A200889941 /* Project object */;
+}

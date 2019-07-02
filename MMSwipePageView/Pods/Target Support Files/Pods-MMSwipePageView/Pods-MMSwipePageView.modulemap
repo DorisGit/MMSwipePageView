@@ -1,0 +1,6 @@
+framework module Pods_MMSwipePageView {
+  umbrella header "Pods-MMSwipePageView-umbrella.h"
+
+  export *
+  module * { export * }
+}
